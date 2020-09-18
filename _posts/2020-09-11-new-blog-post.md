@@ -1,5 +1,6 @@
 ---
 title: New Blog Post
+date: 2020-09-11 00:00:00 Z
 excerpt: Tokyo is one of the most exciting cities on Earth, and has a legendary nightlife.
 ---
 
