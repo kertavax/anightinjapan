@@ -71,8 +71,9 @@ div.circle {
 	position: fixed;
 	bottom: -250px;
 	right: -250px;
-	width: 500px;
-	height: 500px;
+	width: 50vw;
+	height: 50vw;
+	transform-origin: 50% 50%;
 	background-color: $red;
 	border-radius: 50%;
 	z-index: -1;
