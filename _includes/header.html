@@ -3,8 +3,14 @@
 		<img src="/assets/images/logo.svg" alt="A Night in Japan logo">
 	</a>
 	<nav>
-		<a href="/">Home</a>
-		<a href="/about">About</a>
+
+		{% for page in site.pages%}
+			<a href="{{ page.url }}">{{ page.title }}</a>
+		{% endfor %}
+
+		<!-- <a href="/" {% if page.url == "/" %} class="selected" {% endif %}>Home</a>
+		<a href="/about/" {% if page.url == "/about/" %} class="selected" {% endif %}>About</a>
+		<a href="/contact/" {% if page.url == "/contact/" %} class="selected" {% endif %}>Contact</a> -->
 	</nav>
 </header>
 
